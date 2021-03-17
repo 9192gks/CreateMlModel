@@ -13,8 +13,8 @@ fileIn = sys.argv[1]
 pathToImages = 'images'
 
 def findLabel(path):
-    # pull label from image path i.e. images/_label_/image.jpg
-    return path.split('/')[1]
+    #/content/drive/MyDrive/vision/images/paper plane
+    return path.split('/')[6]
 
 def annotation(row):
     # create annotation
