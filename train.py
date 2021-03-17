@@ -3,7 +3,7 @@ import turicreate as tc
 
 tc.config.set_num_gpus(1)
 
-modelName = 'SlalomLogo'
+modelName = 'Detection'
 #
 # Load the data
 data = tc.SFrame('training.sframe')
